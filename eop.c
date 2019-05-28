@@ -79,10 +79,11 @@ int main(int argc, char *argv[])
 		break;
 	case 6:
 		f_name = argv[1];
-		xOffset = atoi(argv[2]);
-		yOffset = atoi(argv[3]);
-		width = atoi(argv[4]);
-		height = atoi(argv[5]);
+		layer = argv[2];	
+		xOffset = atoi(argv[3]);
+		yOffset = atoi(argv[4]);
+		width = atoi(argv[5]);
+		height = atoi(argv[6]);
 		break;
 	default:
 		usage(program);
